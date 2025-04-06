@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>א.ס הדברות</title>
+    <!-- גופנים מגוגל -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Lato&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- קובץ העיצוב -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- כותרת ולוגו -->
+    <header>
+        <div class="container">
+            <div class="logo">LOGO</div>
+            <h1>א.ס הדברות</h1>
+        </div>
+    </header>
+    <div class="container">
+        <!-- סקשן "על המדביר" -->
+        <section class="about">
+            <p>
+                שלום, שמי אברהם סוקובסקי. אני מדביר מקצועי עם ניסיון עשיר של מעל 20 שנה בתחום, מומחה בטיפול בכל סוגי
+                החרקים והמזיקים. אני משלב ידע עדכני, טכנולוגיה מתקדמת וגישה אישית כדי להעניק פתרונות מהירים, יעילים
+                ואמינים. השירות שלי מתאפיין באדיבות, מקצועיות והתמקדות בפתרונות מותאמים אישית לכל לקוח.
+                <br><br>
+                עם עשרות לקוחות מרוצים וסיפורי הצלחה רבים, אני כאן כדי להגן על ביתכם, משרדכם והסביבה שלכם מכל איומים.
+                תנו לי להראות לכם מה זה שירות אמיתי שמביא לתוצאות מרשימות ומפוצצות!
+            </p>
+        </section>
+
+        <!-- כרטיסי המלצות (6 כרטיסים בשתי שורות) -->
+        <section class="recommendations">
+            <div class="recommendation-card">
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>"שירות מעולה ומקצועי!" - לקוח מרוצה</p>
+            </div>
+            <div class="recommendation-card">
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>"אני ממליץ בחום, מומלץ מאוד!" - לקוח מרוצה</p>
+            </div>
+            <div class="recommendation-card">
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>"השירות היה אדיב ומהיר!" - לקוח מרוצה</p>
+            </div>
+            <div class="recommendation-card">
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>"המדביר עשה עבודה נהדרת!" - לקוח מרוצה</p>
+            </div>
+            <div class="recommendation-card">
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>"מקצועיות ואמינות ללא פשרות!" - לקוח מרוצה</p>
+            </div>
+            <div class="recommendation-card">
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <p>"תוצאה מושלמת ושירות יוצא דופן!" - לקוח מרוצה</p>
+            </div>
+        </section>
+
+        <!-- שורת אייקונים -->
+        <section class="icons-row">
+            
+            <div class="icon-item">
+              <i class="bi bi-emoji-smile"></i>
+              <p>שירות אדיב</p>
+            </div>
+            <div class="icon-item">
+              <i class="bi bi-person-check"></i>
+              <p>שירות מקצועי</p>
+            </div>
+            <div class="icon-item">
+              <i class="bi bi-check-circle"></i>
+              <p>שירות אמין</p>
+            </div>
+            <div class="icon-item">
+              <i class="bi bi-award"></i>
+              <p>רישיונות</p>
+            </div>
+            <div class="icon-item">
+              <i class="bi bi-leaf"></i>
+              <p>ידידותי לסביבה</p>
+            </div>
+          </section>
+          
+
+
+        <!-- כרטיסי חרקים -->
+        <section class="bug-cards">
+            <div class="bug-card" onclick="toggleCard(this)">
+                <div class="card-inner">
+                    <!-- צד קדמי -->
+                    <div class="card-front">
+                        <img src="images/field-mouse.webp" alt="Field Mouse">
+                        <div class="content">
+                            <h3>Field Mouse</h3>
+                            <a class="read-more">למד עוד</a>
+                        </div>
+                    </div>
+                    <!-- צד אחורי -->
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h3>מידע על Field Mouse</h3>
+                            <p>מזיק קטן אך מהיר, עם הרגלי מזון מסוימים – פתרונות מקצועיים לטיפול.</p>
+                            <a class="read-more">סגור</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- כרטיס 2: Cockroaches -->
+            <div class="bug-card" onclick="toggleCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/cockroaches.webp" alt="Cockroaches">
+                        <div class="content">
+                            <h3>Cockroaches</h3>
+                            <a class="read-more">למד עוד </a>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h3>מידע על Cockroaches</h3>
+                            <p>מזיקים עקשנים עם יכולת הישרדות גבוהה – טיפים למניעה וטיפול.</p>
+                            <a class="read-more">סגור</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- כרטיס 3: Field Mouse -->
+            <div class="bug-card" onclick="toggleCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/field-mouse.webp" alt="Field Mouse">
+                        <div class="content">
+                            <h3>Field Mouse</h3>
+                            <a class="read-more">למד עוד </a>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h3>מידע על Field Mouse</h3>
+                            <p>מזיק קטן אך מהיר, עם הרגלי מזון מסוימים – פתרונות מקצועיים לטיפול.</p>
+                            <a class="read-more">סגור</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- כרטיס 4: Honey Bee -->
+            <div class="bug-card" onclick="toggleCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/honey-bee.webp" alt="Honey Bee">
+                        <div class="content">
+                            <h3>Honey Bee</h3>
+                            <a class="read-more">למד עוד </a>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h3>מידע על Honey Bee</h3>
+                            <p>דבורה חיונית אך עשויה לגרום לבעיות – מידע מקצועי והמלצות לטיפול במקרים חריגים.</p>
+                            <a class="read-more">סגור</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- כרטיס 5: Little Black Ant -->
+            <div class="bug-card" onclick="toggleCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/little-black-ant.webp" alt="Little Black Ant">
+                        <div class="content">
+                            <h3>Little Black Ant</h3>
+                            <a class="read-more">למד עוד </a>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h3>מידע על Little Black Ant</h3>
+                            <p>נחשים קטנים אך מסיביים, עם יכולת הפצה מהירה – טיפים להתמודדות ומניעה.</p>
+                            <a class="read-more">סגור</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- כרטיס 6: Winged Termite -->
+            <div class="bug-card" onclick="toggleCard(this)">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="images/winged-termite.webp" alt="Winged Termite">
+                        <div class="content">
+                            <h3>Winged Termite</h3>
+                            <a class="read-more">למד עוד </a>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="back-content">
+                            <h3>מידע על Winged Termite</h3>
+                            <p>מזיק מבני חזק, הגורם נזקים למבנים – מידע מקצועי והמלצות לטיפול מיידי.</p>
+                            <a class="read-more">סגור</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- קובץ הסקריפט -->
+    <script src="script.js"></script>
+</body>
+
+</html>
